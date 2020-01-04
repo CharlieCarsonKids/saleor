@@ -1,5 +1,5 @@
 {
-  "name": "saleor",
+  "name": "charlie-carson-kids-saleor",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -14,6 +14,9 @@
   "dependencies": {},
   "devDependencies": {
     "mjml": "^4.4.0"
+  },
+  "engines": {
+    "node": "12.14.0"
   },
   "scripts": {
     "build-schema": "python manage.py get_graphql_schema > saleor/graphql/schema.graphql",
